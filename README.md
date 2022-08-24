@@ -1,2 +1,2 @@
 # landing_page
-landing page using flexbox, html, css
+Landing page using flexbox, html, and css.
