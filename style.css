@@ -152,6 +152,8 @@ body {
 }
 
 .section4 {
+    display: flex;
+    justify-content: center;
     padding: 30px 100px;
 }
 
@@ -161,6 +163,14 @@ body {
     margin: 50px;
     padding: 40px 80px;
     border-radius: 5px;
+    gap: 50px;
+    flex: 1 1 0;
+}
+
+.blue-left {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
 }
 
 .blue-title {
@@ -173,12 +183,18 @@ body {
     color: #F9FAF8;
 }
 
+.blue-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .blue-section button {
     margin-left: auto;
     width: 100px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: #F9FAF8;
     border-style: solid;
     padding: 5px;
