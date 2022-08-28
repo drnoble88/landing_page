@@ -1,9 +1,10 @@
-body {}
+body {
+    margin: 0;
+}
 
 .section1,
 .section2,
-.section3,
-.section4 {
+.section3 {
     padding: 0 150px;
 }
 
@@ -133,10 +134,11 @@ body {}
     padding: 30px 200px;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     color: #1F2937;
     margin-bottom: 0;
@@ -147,4 +149,46 @@ body {}
     margin-top: 0;
     font-size: 32px;
     font-weight: 900;
+}
+
+.section4 {
+    padding: 30px 100px;
+}
+
+.blue-section {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 40px 80px;
+    border-radius: 5px;
+}
+
+.blue-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.blue-words {
+    color: #F9FAF8;
+}
+
+.blue-section button {
+    margin-left: auto;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
