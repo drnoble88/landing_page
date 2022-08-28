@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto';
 }
 
 .header ul {
@@ -51,10 +52,13 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    font-family: 'Roboto';
 }
 
 .intro-left p {
     color: #E5E7EB;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 
 .intro-left {
@@ -103,6 +107,7 @@ body {
     font-weight: 900;
     color: #1F2937;
     padding-bottom: 25px;
+    font-family: 'Roboto';
 }
 
 .section2 img {
@@ -126,6 +131,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto';
 }
 
 .section3 {
@@ -142,6 +148,7 @@ body {
     font-style: italic;
     color: #1F2937;
     margin-bottom: 0;
+    font-family: 'Roboto';
 }
 
 .scoop {
@@ -149,6 +156,7 @@ body {
     margin-top: 0;
     font-size: 32px;
     font-weight: 900;
+    font-family: 'Roboto';
 }
 
 .section4 {
@@ -177,10 +185,12 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+    font-family: 'Roboto';
 }
 
 .blue-words {
     color: #F9FAF8;
+    font-family: 'Roboto';
 }
 
 .blue-right {
@@ -207,4 +217,5 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px;
+    font-family: 'Roboto';
 }
